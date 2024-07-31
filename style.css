@@ -14,16 +14,29 @@ img {
 }
 
 /* Design */
+:root {
+    font-family: 'arial';
+}
+
 .wrapper {
     box-shadow: inset 0 0 20px red;
     width: 300px;
     margin: 60px auto;
 }
 
-.cover {
-    box-shadow: inset 0 0 20px blue;
+.contents {
+    background-image: url(images/green.png);
+    background-repeat: no-repeat;
+    background-color: #9C6035;
+    color: #E8BC9C;
+    padding: 60px 20px 48px;
+    border-radius: 0 0 30px 30px;
+    border-bottom: 10px solid#46260E;
 }
 
-.contents {
-    box-shadow: inset 0 0 20px purple;
+.contents h1 {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 10px;
 }
