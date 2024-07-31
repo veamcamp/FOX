@@ -24,7 +24,11 @@ img {
     margin: 60px auto;
 }
 
-.contents {
+.animal {
+
+}
+
+.animal-contents {
     background-image: url(images/green.png);
     background-repeat: no-repeat;
     background-color: #9C6035;
@@ -34,7 +38,7 @@ img {
     border-bottom: 10px solid#46260E;
 }
 
-.contents h1 {
+.animal-contents h1 {
     font-size: 36px;
     color: #fff;
     font-weight: 700;
